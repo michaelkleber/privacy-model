@@ -62,6 +62,8 @@ We think a shared understanding of a privacy model for the web will be important
 
 # Related Work
 
+The [Tor Browser design's "Privacy Requirements"](https://2019.www.torproject.org/projects/torbrowser/design/#privacy), particularly the clear emphasis on "Unlinkability".
+
 Mozilla has published an anti-tracking policy: https://wiki.mozilla.org/Security/Anti_tracking_policy
 
 WebKit published a related tracking prevention policy: https://webkit.org/tracking-prevention-policy/
