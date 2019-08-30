@@ -2,7 +2,7 @@
 ## Sharding Web Identity
 
 
-The identity model of the web has been the implicit result of two interacting browser capabilities:
+The identity model of the web has included the implicit result of two interacting browser capabilities:
 
 *   Per-domain state, especially _cookies_, which let one eTLD+1 maintain a consistent notion of a visitor's identity.  This identity extends across top-level sites due to 3p cookies, storage within iframes, etc.
 
