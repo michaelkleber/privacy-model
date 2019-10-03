@@ -32,7 +32,7 @@ This document offers one possible answer to these questions.  The goal is a bala
 
 *   The identity "Me while I'm visiting nytimes.com" is distinct from the identity "Me while visiting cnn.com".
 *   The central privacy threat is joining these per-site identities across distinct first parties.  Browsers impose limits (on cookies, fingerprinting, and other state) with the goal of preventing the joinability of these per-1p identities.
-*   The notion of "First Party" may expand beyond eTLD+1, e.g. if something along the lines of the [First Party Sets proposal](https://mikewest.github.io/first-party-sets/) gets adopted.  It is reasonable for the browser to relax its identity-sharing controls within that expanded notion, provided that the resulting identity scope is [not too large](https://mikewest.github.io/first-party-sets/#how-will-malicious-actors-abuse-this-mechanism) and can be understood by the user.
+*   The notion of "First Party" may expand beyond eTLD+1, e.g. if something along the lines of the [First Party Sets proposal](https://github.com/krgovind/first-party-sets) gets adopted.  It is reasonable for the browser to relax its identity-sharing controls within that expanded notion, provided that the resulting identity scope is [not too large](https://mikewest.github.io/first-party-sets/#how-will-malicious-actors-abuse-this-mechanism) and can be understood by the user.
 *   Per-site identities can become joined across first parties, due to user actions like "Pay with PayPal", "Log In with Facebook" or "Use your email address as your account name".  Browsers should help their users understand the implications of allowing that joining, and should be supportive of ways to access sites that do not require that cross-site joining.
 
 
